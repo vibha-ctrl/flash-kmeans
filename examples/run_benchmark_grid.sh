@@ -13,7 +13,7 @@ BENCHMARK_PY="${SCRIPT_DIR}/benchmark_flash_kmeans.py"
 BATCH_SIZES=(8 32)
 NUM_POINTS=(16384 32768 65536 131072)
 DIMS=(128)
-NUM_CLUSTERS=(100 1000)
+NUM_CLUSTERS=(100 128 1000 1024)
 MAX_ITERS=(100)
 TOLS=(-1)
 # ---------------------------------------------------
